@@ -16,7 +16,7 @@ We can achieve this using a custom flex plugin and some of the other twilio prod
 If you dont have a flex enabled project you can get one for free [here](http://www.twilio.com/referral/f0TwNm){:target="_blank"}. You can also install the twilio CLI [here](https://www.twilio.com/docs/twilio-cli/quickstart){:target="_blank"}. For now, I will assume you do, so lets create our template plugin using the twilio CLI. 
 
 ```
-twilio flex:plugins:create raise-hand --install --typescript
+twilio flex:plugins:create plugin-raise-hand --install --typescript
 ```
 
 I like to leave the default CustomTaskList component that the template comes with in the folder structure until we have completed development of our component. This often comes in handy to refer back to.
